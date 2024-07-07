@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.073s] [ 40%] Built target simple_publisher
+[0.080s] [ 60%] [32m[1mLinking CXX executable simple_subscriber[0m
+[0.162s] /usr/bin/ld: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o: in function `main':
+[0.162s] simple_subscriber.cpp:(.text+0x69): multiple definition of `main'; CMakeFiles/simple_subscriber.dir/src/simple_publisher.cpp.o:simple_publisher.cpp:(.text+0xb): first defined here
+[0.384s] collect2: error: ld returned 1 exit status
+[0.385s] gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:175: simple_subscriber] Error 1
+[0.385s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+[0.385s] gmake: *** [Makefile:146: all] Error 2
+[0.388s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32

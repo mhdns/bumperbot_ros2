@@ -16,8 +16,8 @@ class SimpleSubscriber(Node):
     def msgCallback(self, msg):
         self.get_logger().info("I heard: %s", msg.data)
 
-def main(args=None):
-    rclpy.init(args=args)
+def main():
+    rclpy.init()
     simple_subscriber = SimpleSubscriber()
     rclpy.spin(simple_subscriber)
     simple_subscriber.destroy_node()

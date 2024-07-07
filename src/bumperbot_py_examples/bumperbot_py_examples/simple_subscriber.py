@@ -14,7 +14,7 @@ class SimpleSubscriber(Node):
         )
 
     def msgCallback(self, msg):
-        self.get_logger().info("I heard: %s", msg.data)
+        self.get_logger().info(f"I heard: {msg.data}")
 
 def main():
     rclpy.init()

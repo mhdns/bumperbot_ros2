@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simple_subscriber.dir/src/simple_publisher.cpp.o"
-  "CMakeFiles/simple_subscriber.dir/src/simple_publisher.cpp.o.d"
   "CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o"
   "CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o.d"
   "simple_subscriber"

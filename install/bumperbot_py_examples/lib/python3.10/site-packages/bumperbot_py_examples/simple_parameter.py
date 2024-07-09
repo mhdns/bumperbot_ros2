@@ -14,13 +14,14 @@ class SimpleParameter(Node):
         result = SetParametersResult()
 
         for param in params:
-            if param.name == "simple_int_param" and param.type == Parameter.Type.INTEGER:
-                self.get_logger().info(f"Old param: {self.get_parameter('simple_int_param').get_parameter_value()}, New param: {param.value}")
-                result.successful = True
-            elif param.name == "simple_string_param" and param.type == Parameter.Type.STRING:
-                self.get_logger().info(f"Old param: {self.get_parameter('simple_int_param').get_parameter_value()}, New param: {param.value}")
+            if param.name == "simple_int_param" and param.type_ == Parameter.Type.INTEGER:
+                self.get_logger().info(f"Old param: {self.get_parameter('simple_int_param').get_parameter_value().integer_value}, New param: {param.value}")
                 result.successful = True
 
+            if param.name == "simple_string_param" and param.type_ == Parameter.Type.STRING:
+                self.get_logger().info(f"New param: {param.value}")
+                result.successful = True
+        return result
 
 
 def main(args=None):

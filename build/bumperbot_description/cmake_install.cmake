@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
+    "/home/mhdns/bumperbot_ws/src/bumperbot_description/meshes"
+    "/home/mhdns/bumperbot_ws/src/bumperbot_description/urdf"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/mhdns/bumperbot_ws/build/bumperbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_description")
 endif()
 

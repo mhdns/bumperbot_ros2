@@ -1,0 +1,10 @@
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_publisher.cpp:6:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::literals::chrono_literals[m[K’
+    6 | using std::[01;31m[Kchrono_literals[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_publisher.cpp:12:32:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   12 |     timer_ = create_wall_timer([01;31m[K1s[m[K, std::bind(&SimplePublisher::timerCallback, this));
+      |                                [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

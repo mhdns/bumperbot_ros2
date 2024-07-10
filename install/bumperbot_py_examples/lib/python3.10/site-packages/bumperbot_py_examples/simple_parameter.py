@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from rcl_interfaces.msg import SetParametersResult
 from rclpy.parameter import Parameter
+
 class SimpleParameter(Node):
     def __init__(self):
         super().__init__('simple_parameter')

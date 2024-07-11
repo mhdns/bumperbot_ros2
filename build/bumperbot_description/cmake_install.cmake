@@ -45,6 +45,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
     "/home/mhdns/bumperbot_ws/src/bumperbot_description/meshes"
+    "/home/mhdns/bumperbot_ws/src/bumperbot_description/models"
     "/home/mhdns/bumperbot_ws/src/bumperbot_description/urdf"
     "/home/mhdns/bumperbot_ws/src/bumperbot_description/launch"
     )

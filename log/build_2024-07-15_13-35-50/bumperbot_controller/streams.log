@@ -1,0 +1,45 @@
+[0.015s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.620s] -- Detecting C compiler ABI info
+[0.692s] -- Detecting C compiler ABI info - done
+[0.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.696s] -- Detecting C compile features
+[0.697s] -- Detecting C compile features - done
+[0.700s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.780s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.789s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.879s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.945s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.997s] -- Added test 'lint_cmake' to check CMake code style
+[0.999s] -- Added test 'xmllint' to check XML markup files
+[1.000s] -- Configuring done
+[1.002s] -- Generating done
+[1.006s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[1.009s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[1.010s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[1.016s] ninja: no work to do.
+[1.017s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[1.026s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[1.029s] -- Install configuration: ""
+[1.029s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.030s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.030s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.031s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.031s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.031s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.032s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.033s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.033s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.033s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.033s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.034s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller

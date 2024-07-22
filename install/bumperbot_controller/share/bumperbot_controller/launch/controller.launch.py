@@ -6,7 +6,7 @@ def generate_launch_description():
         executable="spawner",
         arguments=[
             "joint_state_broadcaster",
-            "--controller_manager",
+            "--controller-manager",
             "/controller_manager"
         ]
     )
@@ -16,7 +16,7 @@ def generate_launch_description():
         executable="spawner",
         arguments=[
             "simple_velocity_controller",
-            "--controller_manager",
+            "--controller-manager",
             "/controller_manager"
         ]
     )

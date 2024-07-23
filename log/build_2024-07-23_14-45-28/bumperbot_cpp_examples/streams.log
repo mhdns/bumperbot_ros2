@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhdns/bumperbot_ws/install/bumperbot_py_examples /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.042s] [ 75%] Built target simple_subscriber
+[0.043s] [ 75%] Built target simple_publisher
+[0.043s] [ 75%] Built target simple_parameter
+[0.047s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[4.980s] [100%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[5.213s] [100%] Built target simple_turtlesim_kinematics
+[5.219s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhdns/bumperbot_ws/install/bumperbot_py_examples /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[5.239s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhdns/bumperbot_ws/install/bumperbot_py_examples /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[5.242s] -- Install configuration: ""
+[5.242s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[5.242s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[5.242s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[5.243s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[5.243s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[5.243s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[5.243s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[5.246s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[5.247s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[5.248s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[5.248s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[5.248s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[5.248s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[5.248s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[5.248s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[5.249s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mhdns/bumperbot_ws/install/bumperbot_py_examples /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples

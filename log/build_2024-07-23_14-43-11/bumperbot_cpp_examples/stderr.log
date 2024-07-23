@@ -1,0 +1,21 @@
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTurtlesimKinematics::turtle2PoseCallback(const Pose&)[m[K’:
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:28:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   28 |     cos
+      |        [01;31m[K^[m[K
+      |        [32m[K;[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:28:5:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Kcos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   28 |     [01;35m[Kcos[m[K
+      |     [01;35m[K^~~[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:28:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:23:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |     float [01;35m[KTx[m[K =  last_turtle2_pose_.x - last_turtle1_pose_.x;
+      |           [01;35m[K^~[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:24:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     float [01;35m[KTy[m[K =  last_turtle2_pose_.y - last_turtle1_pose_.y;
+      |           [01;35m[K^~[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:27:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   27 |     float [01;35m[Ktheta_deg[m[K = 180 * theta_rad / 3.14;
+      |           [01;35m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

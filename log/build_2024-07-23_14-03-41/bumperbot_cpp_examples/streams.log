@@ -1,0 +1,59 @@
+[0.011s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples
+[0.036s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.248s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.252s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.114s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.211s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.252s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.252s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/include
+[3.252s] -- Configured cppcheck exclude dirs and/or files: 
+[3.253s] -- Added test 'lint_cmake' to check CMake code style
+[3.255s] -- Added test 'uncrustify' to check C / C++ code style
+[3.255s] -- Configured uncrustify additional arguments: 
+[3.255s] -- Added test 'xmllint' to check XML markup files
+[3.256s] -- Configuring done
+[3.270s] -- Generating done
+[3.272s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[3.277s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples
+[3.278s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[3.301s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[3.301s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[3.301s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[3.301s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[3.315s] [100%] Built target simple_turtlesim_kinematics
+[3.315s] [100%] Built target simple_subscriber
+[3.315s] [100%] Built target simple_parameter
+[3.315s] [100%] Built target simple_publisher
+[3.321s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[3.340s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[3.344s] -- Install configuration: ""
+[3.344s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[3.344s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[3.344s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[3.344s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[3.345s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[3.345s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[3.345s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[3.346s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[3.346s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[3.346s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[3.347s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples

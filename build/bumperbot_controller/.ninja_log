@@ -1,15 +1,10 @@
 # ninja log v5
+1	133	1721814123798763457	build.ninja	4d7479d872479bae
 0	2	0	help	26b1588d32d273bc
-1	133	1721714622178670554	build.ninja	4d7479d872479bae
-0	2	0	help	26b1588d32d273bc
-0	2	0	help	26b1588d32d273bc
+0	475	1721814123798763457	build.ninja	4d7479d872479bae
+0	6	0	CMakeFiles/ament_cmake_python_copy_bumperbot_controller	20676e7f0918f876
+0	6	0	/home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller	20676e7f0918f876
+6	153	0	CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg	6973c90086abd76d
+6	153	0	/home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg	6973c90086abd76d
 0	1	0	help	26b1588d32d273bc
-0	1	0	help	26b1588d32d273bc
-0	2	0	help	26b1588d32d273bc
-0	1	0	help	26b1588d32d273bc
-0	2	0	help	26b1588d32d273bc
-0	1	0	help	26b1588d32d273bc
-0	2	0	help	26b1588d32d273bc
-1	2	0	help	26b1588d32d273bc
-0	2	0	help	26b1588d32d273bc
 0	2	0	help	26b1588d32d273bc

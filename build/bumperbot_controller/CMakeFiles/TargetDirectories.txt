@@ -2,6 +2,7 @@
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/bumperbot_controller_uninstall.dir
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir
+/home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/simple_controller.dir
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/test.dir
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/edit_cache.dir
 /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/rebuild_cache.dir

@@ -425,3 +425,39 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d9c93 && [1/2] Building C object CMakeFiles/cmTC_d9c93.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d9c93
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/mhdns/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_80c10 && [1/2] Building C object CMakeFiles/cmTC_80c10.dir/src.c.o
+[2/2] Linking C executable cmTC_80c10
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

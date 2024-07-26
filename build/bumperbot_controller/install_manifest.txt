@@ -10,6 +10,9 @@
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller

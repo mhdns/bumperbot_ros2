@@ -1,5 +1,5 @@
 joystick:
-  ros_parameters:
+  ros__parameters:
     device_id: 0
     device_name: ""
     deadzone: 0.5

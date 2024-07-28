@@ -1,0 +1,6 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[ 50%] Built target simple_subscriber
+[ 50%] Built target simple_publisher
+[ 70%] Built target simple_parameter
+[ 90%] Built target simple_turtlesim_kinematics
+[100%] [32m[1mLinking CXX executable simple_tf_kinematics[0m

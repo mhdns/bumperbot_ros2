@@ -1,0 +1,11 @@
+In file included from [01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:2[m[K:
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/../include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:5:18:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    5 | #include <tf2_ros
+      |                  [01;31m[K^[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/../include/bumperbot_cpp_examples/simple_tf_kinematics.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros: No such file or directory
+    5 | #include [01;31m[K<[m[Ktf2_ros
+      |          [01;31m[K^[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

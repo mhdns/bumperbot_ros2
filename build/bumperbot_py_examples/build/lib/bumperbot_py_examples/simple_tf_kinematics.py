@@ -4,6 +4,7 @@ from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
 from tf2_ros import TransformBroadcaster, TransformException
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
+from tf_transformations import quaternion_from_euler, quaternion_multiply, quaternion_inverse
 from geometry_msgs.msg import TransformStamped
 from bumperbot_msgs.srv import GetTransform
 
@@ -19,6 +20,9 @@ class SimpleTfKinematics(Node):
 
         self.x_increment_ = 0.05
         self.last_x_ = 0.0
+        self.rotation_counter = 0
+        self.last_orientations_ =  quaternion_from_euler(0, 0, 0)
+        self.orientation_increment_ = quaternion_from_euler(0, 0, 0.05)
 
         self.tf_buffer_ = Buffer()
         self.tf_listener_ = TransformListener(self.tf_buffer_, self)
@@ -57,12 +61,19 @@ class SimpleTfKinematics(Node):
         self.dynamic_transform_stamped_.transform.translation.y = 0.0
         self.dynamic_transform_stamped_.transform.translation.z = 0.0
 
-        self.dynamic_transform_stamped_.transform.rotation.x = 0.0
-        self.dynamic_transform_stamped_.transform.rotation.y = 0.0
-        self.dynamic_transform_stamped_.transform.rotation.z = 0.0
-        self.dynamic_transform_stamped_.transform.rotation.w = 1.0
+        q = quaternion_multiply(self.last_orientations_, self.orientation_increment_)
+        self.dynamic_transform_stamped_.transform.rotation.x = q[0]
+        self.dynamic_transform_stamped_.transform.rotation.y = q[1]
+        self.dynamic_transform_stamped_.transform.rotation.z = q[2]
+        self.dynamic_transform_stamped_.transform.rotation.w = q[3]
 
         self.dynamic_tf_broadcaster_.sendTransform(self.dynamic_transform_stamped_)
+        self.rotation_counter += 1
+        self.last_orientations_ = q
+
+        if self.rotation_counter >= 100:
+            self.orientation_increment_ = quaternion_inverse(self.orientation_increment_)
+            self.rotation_counter = 0
 
     def getTransformCallback(self, req, res):
         self.get_logger().info(f'Received request to get transform for {req.frame_id} and {req.child_frame_id}')

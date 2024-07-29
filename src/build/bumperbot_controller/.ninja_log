@@ -1,6 +1,0 @@
-# ninja log v5
-0	6	0	CMakeFiles/ament_cmake_python_copy_bumperbot_controller	faf14100a70a2dd3
-0	6	0	/home/mhdns/bumperbot_ws/src/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller	faf14100a70a2dd3
-6	157	0	CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg	701ee78cc84fee37
-6	157	0	/home/mhdns/bumperbot_ws/src/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg	701ee78cc84fee37
-0	7020	1722213685315090518	CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o	a6572bba3e3af671

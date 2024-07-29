@@ -1,0 +1,27 @@
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:13:21:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (0, should be 1)
+   13 |     rclcpp::Service<[01;31m[K>[m[K::SharedPtr service_;
+      |                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:55:7:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class ServiceT> class rclcpp::Service[m[K’
+   55 | class [01;36m[KService[m[K;
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:13:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   13 |     rclcpp::Service<>::[01;31m[KSharedPtr[m[K service_;
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:13:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+   13 |     rclcpp::Service<>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                  [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/simple_service_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

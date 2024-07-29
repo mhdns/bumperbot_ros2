@@ -1,0 +1,44 @@
+[0.051s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[0.203s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.292s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.373s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.155s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.253s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.471s] -- Found bumperbot_msgs: 0.0.0 (/home/mhdns/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[3.486s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.538s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/include
+[3.538s] -- Configured cppcheck exclude dirs and/or files: 
+[3.539s] -- Added test 'lint_cmake' to check CMake code style
+[3.542s] -- Added test 'uncrustify' to check C / C++ code style
+[3.542s] -- Configured uncrustify additional arguments: 
+[3.542s] -- Added test 'xmllint' to check XML markup files
+[3.543s] -- Configuring done
+[3.571s] -- Generating done
+[3.572s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[3.590s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[3.590s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[3.590s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[3.590s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[3.590s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[3.594s] [  8%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[3.603s] [ 75%] Built target simple_subscriber
+[3.603s] [ 75%] Built target simple_turtlesim_kinematics
+[3.603s] [ 75%] Built target simple_tf_kinematics
+[3.603s] [ 75%] Built target simple_parameter
+[3.603s] [ 91%] Built target simple_publisher
+[3.859s] [01m[K/home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_service_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_msgs/srv/add_two_int.hpp: No such file or directory
+[3.859s]     2 | #include [01;31m[K<bumperbot_msgs/srv/add_two_int.hpp>[m[K
+[3.859s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.859s] compilation terminated.
+[3.861s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+[3.861s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/simple_service_server.dir/all] Error 2
+[3.861s] gmake: *** [Makefile:146: all] Error 2
+[3.863s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32

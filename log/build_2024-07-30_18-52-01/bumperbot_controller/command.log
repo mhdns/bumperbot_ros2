@@ -1,0 +1,1 @@
+Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32

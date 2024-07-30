@@ -1,0 +1,21 @@
+
+[0/4] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[0/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[1/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[1/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+[2/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+running egg_info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+
+[3/4] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[31mFAILED: [0mCMakeFiles/simple_controller.dir/src/simple_controller.cpp.o 
+/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/mhdns/bumperbot_ws/src/bumperbot_controller/include -I/usr/include/eigen3 -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o -MF CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o.d -o CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o -c /home/mhdns/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp
+/home/mhdns/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp: In constructor ‘SimpleController::SimpleController(const string&)’:
+/home/mhdns/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:24:144: error: expected primary-expression before ‘:’ token
+   24 |     joint_sub_ = create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));:
+      |                                                                                                                                                ^
+ninja: build stopped: subcommand failed.

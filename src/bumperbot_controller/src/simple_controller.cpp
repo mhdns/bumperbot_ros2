@@ -3,7 +3,11 @@
 
 using std::placeholders::_1;
 
-SimpleController::SimpleController(const std::string &name) : Node(name)
+SimpleController::SimpleController(const std::string &name)
+    : Node(name),
+    left_wheel_prev_pos_(0.0),
+    right_wheel_prev_pos_(0.0),
+    prev_time_(rclcpp::Node::now())
 {
     declare_parameter("wheel_radius", 0.033);
     declare_parameter("wheel_separation", 0.17);
@@ -17,7 +21,10 @@ SimpleController::SimpleController(const std::string &name) : Node(name)
     wheel_cmd_pub_ = create_publisher<std_msgs::msg::Float64MultiArray>("/simple_velocity_controller/commands", 10);
     vel_sub_ = create_subscription<geometry_msgs::msg::TwistStamped>("/bumperbot_controller/cmd_vel", 10, std::bind(&SimpleController::velCallback, this, _1));
 
-    speed_conversion_ << wheel_radius_/2, wheel_separation_/2, wheel_radius_/wheel_separation_, -wheel_radius_/wheel_separation_;
+    joint_sub_ = create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
+
+
+    speed_conversion_ << wheel_radius_/2, wheel_radius_/2, wheel_radius_/wheel_separation_, -wheel_radius_/wheel_separation_;
 
     RCLCPP_INFO_STREAM(get_logger(), "The conversion matrix is " << speed_conversion_);
 }
@@ -32,6 +39,27 @@ void SimpleController::velCallback(const geometry_msgs::msg::TwistStamped & msg)
     wheel_speed_msg.data.push_back(wheel_speed.coeff(0));
 
     wheel_cmd_pub_->publish(wheel_speed_msg);
+}
+
+void SimpleController::jointCallback(const sensor_msgs::msg::JointState &msg)
+{
+    rclcpp::Time msg_time = msg.header.stamp;
+    double dp_left = msg.position[0] - left_wheel_prev_pos_;
+    double dp_right = msg.position[1] - right_wheel_prev_pos_;
+    rclcpp::Duration dt = msg_time - prev_time_;
+
+    left_wheel_prev_pos_ = msg.position[0];
+    right_wheel_prev_pos_ = msg.position[1];
+    prev_time_ = msg_time;
+
+    double fi_left = dp_left / dt.seconds();
+    double fi_right = dp_right / dt.seconds();
+
+    double linear = wheel_radius_ * (fi_left + fi_right) / 2.0;
+    double angular = wheel_radius_ * (fi_right - fi_left) / wheel_separation_;
+
+    RCLCPP_INFO_STREAM(get_logger(), "The linear velocity is " << linear);
+    RCLCPP_INFO_STREAM(get_logger(), "The angular velocity is " << angular);
 }
 
 int main(int argc, char* argv[])

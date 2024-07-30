@@ -1,0 +1,60 @@
+[0.011s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[0.017s] 
+[0.017s] [0/4] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[0.023s] [0/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[0.023s] [1/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[0.208s] [1/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+[0.208s] [2/4] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+[0.208s] running egg_info
+[0.208s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.208s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.208s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.208s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.209s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[8.146s] 
+[8.147s] [3/4] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[8.474s] [3/4] Linking CXX executable simple_controller[K
+[8.474s] [4/4] Linking CXX executable simple_controller[K
+[8.476s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[8.488s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[8.492s] -- Install configuration: ""
+[8.492s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[8.492s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[8.492s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[8.492s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[8.492s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.492s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[8.493s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.493s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[8.493s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[8.493s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[8.511s] Listing '/home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[8.514s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/include/include
+[8.514s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[8.514s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[8.514s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[8.520s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[8.520s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[8.520s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[8.520s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[8.520s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[8.520s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[8.521s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[8.521s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[8.523s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller

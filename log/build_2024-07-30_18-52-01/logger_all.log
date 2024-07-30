@@ -329,3 +329,60 @@
 [1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.bash'
 [1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.zsh'
 [1.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mhdns/bumperbot_ws/install/bumperbot_py_examples/share/colcon-core/packages/bumperbot_py_examples)
+[3.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[3.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[3.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[3.879s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[3.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[3.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[3.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[3.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/bin'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/bin'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[3.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[3.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[3.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/bin'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/mhdns/bumperbot_ws/install/bumperbot_controller/bin'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[3.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mhdns/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[3.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.899s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.903s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.903s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.907s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mhdns/bumperbot_ws/install/local_setup.ps1'
+[3.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mhdns/bumperbot_ws/install/_local_setup_util_ps1.py'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mhdns/bumperbot_ws/install/setup.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mhdns/bumperbot_ws/install/local_setup.sh'
+[3.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mhdns/bumperbot_ws/install/_local_setup_util_sh.py'
+[3.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mhdns/bumperbot_ws/install/setup.sh'
+[3.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mhdns/bumperbot_ws/install/local_setup.bash'
+[3.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mhdns/bumperbot_ws/install/setup.bash'
+[3.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mhdns/bumperbot_ws/install/local_setup.zsh'
+[3.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mhdns/bumperbot_ws/install/setup.zsh'

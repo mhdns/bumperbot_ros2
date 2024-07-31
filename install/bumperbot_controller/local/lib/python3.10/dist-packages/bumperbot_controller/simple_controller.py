@@ -25,6 +25,9 @@ class SimpleController(Node):
         self.right_wheel_prev_pos_ = 0.0
         self.prev_time_ = self.get_clock().now()
 
+        self.x_ = 0.0
+        self.y_ = 0.0
+        self.theta_ = 0.0
 
         self.wheel_cmd_pub_ = self.create_publisher(Float64MultiArray, "simple_velocity_controller/commands", 10)
         self.vel_sub = self.create_subscription(TwistStamped, "bumperbot_controller/cmd_vel", self.velCallback, 10)
@@ -59,8 +62,16 @@ class SimpleController(Node):
         linear = self.wheel_radius_ * fi_right + self.wheel_radius_ * fi_left
         angular = self.wheel_radius_ * (fi_right - fi_left) / self.wheel_separation_
 
+        d_s = (self.wheel_radius_ * dp_right + self.wheel_radius_ * dp_left) /2
+        d_theta = (self.wheel_radius_ * (dp_right - dp_left)) / self.wheel_separation_
+
+        self.theta_ += d_theta
+        self.x_ += d_s * np.cos(self.theta_)
+        self.y_ += d_s * np.sin(self.theta_)
+
         self.get_logger().info("linear is %f" % linear)
         self.get_logger().info("angular is %f" % angular)
+        self.get_logger().info("x: {}, y: {}, theta: {}".format(self.x_, self.y_, self.theta_))
 
 def main(args=None):
     rclpy.init(args=args)

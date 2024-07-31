@@ -8,3 +8,78 @@
 [0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
 [0.431s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
 [0.432s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.741s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[3.850s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.072s] -- Found bumperbot_msgs: 0.0.0 (/home/mhdns/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[4.106s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.157s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.157s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples/include
+[4.157s] -- Configured cppcheck exclude dirs and/or files: 
+[4.158s] -- Added test 'lint_cmake' to check CMake code style
+[4.160s] -- Added test 'uncrustify' to check C / C++ code style
+[4.160s] -- Configured uncrustify additional arguments: 
+[4.161s] -- Added test 'xmllint' to check XML markup files
+[4.162s] -- Configuring done
+[4.194s] -- Generating done
+[4.196s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[4.205s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples
+[4.207s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[4.236s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[4.236s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[4.237s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[4.237s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[4.237s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[4.237s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[4.237s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_parameter[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_service_client[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_subscriber[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_publisher[0m
+[4.253s] [ 50%] [32m[1mLinking CXX executable simple_service_server[0m
+[4.461s] [ 57%] Built target simple_parameter
+[4.500s] [ 64%] Built target simple_service_server
+[4.502s] [ 71%] Built target simple_service_client
+[4.517s] [ 78%] Built target simple_publisher
+[4.563s] [ 85%] Built target simple_tf_kinematics
+[4.614s] [ 92%] Built target simple_subscriber
+[4.639s] [100%] Built target simple_turtlesim_kinematics
+[4.648s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples -- -j32 -l32
+[4.676s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples
+[4.680s] -- Install configuration: ""
+[4.680s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[4.680s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[4.680s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[4.680s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[4.681s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[4.682s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[4.683s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[4.686s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[4.687s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[4.688s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[4.688s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[4.692s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[4.692s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[4.694s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[4.695s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[4.695s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[4.696s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[4.697s] -- Set runtime path of "/home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[4.697s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[4.697s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[4.697s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[4.697s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[4.698s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[4.698s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[4.698s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[4.698s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[4.700s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mhdns/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_cpp_examples

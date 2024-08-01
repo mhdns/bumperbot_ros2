@@ -8,6 +8,7 @@
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+/home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/trajectory_drawer
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
 /home/mhdns/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml

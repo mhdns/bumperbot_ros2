@@ -524,3 +524,6 @@
 [5.167386] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
 [5.167428] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
 [5.168210] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[5.210452] (-) TimerEvent: {}
+[5.214985] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[5.216482] (-) EventReactorShutdown: {}

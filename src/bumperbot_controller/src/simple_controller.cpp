@@ -28,6 +28,10 @@ SimpleController::SimpleController(const std::string &name)
     joint_sub_ = create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
     odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom", 10);
 
+    transform_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+    transform_stamped_.header.frame_id = "odom";
+    transform_stamped_.child_frame_id = "base_footprint";
+
     odom_msg_.header.frame_id = "odom";
     odom_msg_.child_frame_id = "base_footprint";
 
@@ -92,6 +96,17 @@ void SimpleController::jointCallback(const sensor_msgs::msg::JointState &msg)
     odom_msg_.twist.twist.linear.x = linear;
     odom_msg_.twist.twist.angular.z = angular;
 
+    transform_stamped_.transform.translation.x = x_;
+    transform_stamped_.transform.translation.y = y_;
+    transform_stamped_.transform.rotation.x = q.x();
+    transform_stamped_.transform.rotation.y = q.y();
+    transform_stamped_.transform.rotation.z = q.z();
+    transform_stamped_.transform.rotation.w = q.w();
+
+    transform_stamped_.header.stamp = get_clock()->now();
+
+
+    transform_broadcaster_->sendTransform(transform_stamped_);
     odom_pub_->publish(odom_msg_);
 }
 

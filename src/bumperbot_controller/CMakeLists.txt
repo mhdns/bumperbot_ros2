@@ -28,7 +28,7 @@ include_directories(include)
 include_directories(${EIGEN3_INCLUDE_DIR})
 
 add_executable(simple_controller src/simple_controller.cpp)
-ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs sensor_msgs tf2 nav_msgs ${Eigen_LIBRARIES})
+ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs sensor_msgs tf2 tf2_ros nav_msgs ${Eigen_LIBRARIES})
 
 add_executable(trajectory_drawer src/trajectory_drawer.cpp)
 ament_target_dependencies(trajectory_drawer rclcpp geometry_msgs sensor_msgs nav_msgs)

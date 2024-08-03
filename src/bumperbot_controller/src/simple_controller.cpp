@@ -1,4 +1,4 @@
-#include "../include/bumperbot_controller//simple_controller.hpp"
+#include "../include/bumperbot_controller/simple_controller.hpp"
 #include <Eigen/Geometry>
 #include <tf2/LinearMath/Quaternion.h>
 

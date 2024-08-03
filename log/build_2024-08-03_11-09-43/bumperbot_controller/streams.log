@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[0.047s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.145s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.227s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.230s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.341s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.553s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.610s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.668s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.676s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.956s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.000s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_controller/include
+[3.000s] -- Configured cppcheck exclude dirs and/or files: 
+[3.000s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.000s] -- Added test 'lint_cmake' to check CMake code style
+[3.001s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.002s] -- Added test 'uncrustify' to check C / C++ code style
+[3.002s] -- Configured uncrustify additional arguments: 
+[3.002s] -- Added test 'xmllint' to check XML markup files
+[3.003s] -- Configuring done
+[3.017s] -- Generating done
+[3.027s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[3.035s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[3.036s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[3.045s] 
+[3.045s] [0/6] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[3.045s] [0/6] Building CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[K
+[3.051s] [0/6] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[3.051s] [1/6] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[3.198s] [1/6] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+[3.198s] [2/6] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller && /usr/bin/python3 setup.py egg_info[K
+[3.198s] running egg_info
+[3.198s] writing bumperbot_controller.egg-info/PKG-INFO
+[3.198s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[3.199s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[3.199s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.199s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[6.052s] 
+[6.052s] [3/6] Building CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[K
+[6.052s] [31mFAILED: [0mCMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o 
+[6.052s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/mhdns/bumperbot_ws/src/bumperbot_controller/include -I/usr/include/eigen3 -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/tf2 -isystem /opt/ros/humble/include/tf2_ros -isystem /opt/ros/humble/include/nav_msgs -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/message_filters -isystem /opt/ros/humble/include/rclcpp_action -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rcl_action -isystem /opt/ros/humble/include/tf2_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o -MF CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o.d -o CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o -c /home/mhdns/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp
+[6.052s] /home/mhdns/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp: In constructor ‘NoisyController::NoisyController(const string&)’:
+[6.052s] /home/mhdns/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:26:100: error: ‘SimpleController’ has not been declared
+[6.052s]    26 |     joint_sub_ = create_subscription<sensor_msgs::msg::JointState>("/joint_states", 10, std::bind(&SimpleController::jointCallback, this, _1));
+[6.052s]       |                                                                                                    ^~~~~~~~~~~~~~~~
+[11.791s] 
+[11.791s] [4/6] Building CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[K
+[11.791s] ninja: build stopped: subcommand failed.
+[11.793s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '1': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32

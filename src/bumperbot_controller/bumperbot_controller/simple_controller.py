@@ -37,7 +37,7 @@ class SimpleController(Node):
 
         self.joint_sub_ = self.create_subscription(JointState, "joint_states", self.jointCallback, 10)
 
-        self.odom_pub_ = self.create_publisher(Odometry, "bumperbot_controller/odom_noisy", 10)
+        self.odom_pub_ = self.create_publisher(Odometry, "bumperbot_controller/odom", 10)
 
         self.speed_conversion_ = np.array([[self.wheel_radius_/2, self.wheel_radius_/2],
                                            [self.wheel_radius_/self.wheel_separation_, -self.wheel_radius_/self.wheel_separation_]])

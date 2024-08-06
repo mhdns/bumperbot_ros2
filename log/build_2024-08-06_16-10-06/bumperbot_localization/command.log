@@ -1,0 +1,4 @@
+Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_localization -- -j32 -l32
+Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_localization -- -j32 -l32
+Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_localization
+Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_localization

@@ -34,6 +34,7 @@ install(TARGETS
 
 install(PROGRAMS
         ${PROJECT_NAME}/kalman_filter.py
+        ${PROJECT_NAME}/imu_republisher.py
         DESTINATION lib/${PROJECT_NAME}
 )
 

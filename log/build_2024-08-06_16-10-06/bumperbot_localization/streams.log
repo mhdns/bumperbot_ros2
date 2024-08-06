@@ -1,0 +1,78 @@
+[0.017s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_localization -- -j32 -l32
+[0.040s] 
+[0.040s] [0/1] Re-running CMake...[K
+[0.055s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.155s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.156s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.274s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.279s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.286s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.215s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.338s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.427s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.526s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.576s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_localization/include
+[3.576s] -- Configured cppcheck exclude dirs and/or files: 
+[3.576s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.577s] -- Added test 'lint_cmake' to check CMake code style
+[3.577s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.578s] -- Added test 'uncrustify' to check C / C++ code style
+[3.578s] -- Configured uncrustify additional arguments: 
+[3.578s] -- Added test 'xmllint' to check XML markup files
+[3.580s] -- Configuring done
+[3.589s] -- Generating done
+[3.594s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_localization
+[3.603s] 
+[3.609s] [0/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_localization && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_localization/bumperbot_localization /home/mhdns/bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization/bumperbot_localization[K
+[3.609s] [1/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_localization && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_localization/bumperbot_localization /home/mhdns/bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization/bumperbot_localization[K
+[3.759s] [1/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization && /usr/bin/python3 setup.py egg_info[K
+[3.760s] [2/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization && /usr/bin/python3 setup.py egg_info[K
+[3.760s] running egg_info
+[3.760s] writing bumperbot_localization.egg-info/PKG-INFO
+[3.760s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[3.760s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[3.760s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.760s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[3.762s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization' returned '0': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_localization -- -j32 -l32
+[3.773s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_localization
+[3.777s] -- Install configuration: ""
+[3.777s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[3.777s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[3.778s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[3.778s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[3.778s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.779s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[3.779s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.779s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[3.779s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[3.779s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[3.779s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[3.798s] Listing '/home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[3.798s] Compiling '/home/mhdns/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py'...
+[3.800s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/include/include
+[3.801s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[3.801s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[3.801s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[3.801s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[3.802s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[3.802s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[3.802s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[3.802s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[3.803s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[3.803s] -- Installing: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[3.803s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[3.803s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[3.803s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[3.803s] -- Up-to-date: /home/mhdns/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[3.804s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_localization' returned '0': /usr/bin/cmake --install /home/mhdns/bumperbot_ws/build/bumperbot_localization

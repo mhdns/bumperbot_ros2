@@ -29,7 +29,7 @@ class KalmanFilter(Node):
         self.imu_angular_z_ = imu.angular_velocity.z
 
     def statePrediction(self):
-        self.mean_ self.mean_ + self.motion_
+        self.mean_ = self.mean_ + self.motion_
         self.variance_ = self.variance_ + self.motion_variance_
 
     def measurementUpdate(self):

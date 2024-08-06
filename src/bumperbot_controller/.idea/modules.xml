@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bumperbot_controller.iml" filepath="$PROJECT_DIR$/.idea/bumperbot_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bumperbot_localization/.idea/bumperbot_localization.iml" filepath="$PROJECT_DIR$/../bumperbot_localization/.idea/bumperbot_localization.iml" />
       <module fileurl="file://$PROJECT_DIR$/../bumperbot_py_examples/.idea/bumperbot_py_examples.iml" filepath="$PROJECT_DIR$/../bumperbot_py_examples/.idea/bumperbot_py_examples.iml" />
     </modules>
   </component>

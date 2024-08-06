@@ -53,6 +53,8 @@ class KalmanFilter(Node):
         self.kalman_odom_.twist.twist.angular.z = self.mean_
         self.odom_pub.publish(self.kalman_odom_)
 
+        self.last_angular_z_ = odom.twist.twist.angular.z
+
 def main(args=None):
     rclpy.init(args=args)
     node = KalmanFilter()

@@ -1,0 +1,36 @@
+[0.016s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[0.049s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.148s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.225s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.228s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.340s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.389s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.396s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.456s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.516s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[3.524s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.856s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.905s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.905s] -- Configured cppcheck include dirs: /home/mhdns/bumperbot_ws/src/bumperbot_controller/include
+[3.905s] -- Configured cppcheck exclude dirs and/or files: 
+[3.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.905s] -- Added test 'lint_cmake' to check CMake code style
+[3.906s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.907s] -- Added test 'uncrustify' to check C / C++ code style
+[3.907s] -- Configured uncrustify additional arguments: 
+[3.907s] -- Added test 'xmllint' to check XML markup files
+[3.908s] -- Configuring done
+[3.922s] -- Generating done
+[3.933s] -- Build files have been written to: /home/mhdns/bumperbot_ws/build/bumperbot_controller
+[3.943s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '0': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[3.944s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/mhdns/bumperbot_ws/build/bumperbot_controller -- -j32 -l32
+[3.956s] 
+[3.962s] [0/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K
+[3.963s] [1/2] cd /home/mhdns/bumperbot_ws/build/bumperbot_controller && /usr/bin/cmake -E copy_directory /home/mhdns/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/mhdns/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller[K

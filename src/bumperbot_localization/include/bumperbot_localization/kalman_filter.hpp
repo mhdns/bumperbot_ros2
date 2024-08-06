@@ -22,8 +22,8 @@ private:
     double motion_;
     nav_msgs::msg::Odometry kalman_odom_;
 
-    void odomCallback(const nav_msgs::msg::Odometry::SharedPtr & odom);
-    void imuCallback(const sensor_msgs::msg::Imu::SharedPtr & imu);
+    void odomCallback(const nav_msgs::msg::Odometry & odom);
+    void imuCallback(const sensor_msgs::msg::Imu & imu);
 
     double motion_variance_;
     double measurement_variance_;

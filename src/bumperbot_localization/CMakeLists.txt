@@ -18,6 +18,8 @@ find_package(nav_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
+include_directories(include)
+
 add_executable(kalman_filter src/kalman_filter.cpp)
 ament_target_dependencies(kalman_filter rclcpp sensor_msgs nav_msgs)
 

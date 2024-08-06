@@ -1,0 +1,4 @@
+[0.012s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --verbose -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller
+[0.016s] [0mCMake Error: Unknown argument --verbose[0m
+[0.016s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.033s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_controller' returned '1': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_controller -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --verbose -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_controller

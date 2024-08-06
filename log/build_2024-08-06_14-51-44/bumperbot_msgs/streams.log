@@ -1,0 +1,4 @@
+[0.013s] Invoking command in '/home/mhdns/bumperbot_ws/build/bumperbot_msgs': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --verbose -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_msgs
+[0.018s] [0mCMake Error: Unknown argument --verbose[0m
+[0.019s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.022s] Invoked command in '/home/mhdns/bumperbot_ws/build/bumperbot_msgs' returned '1': /usr/bin/cmake /home/mhdns/bumperbot_ws/src/bumperbot_msgs -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --verbose -DCMAKE_INSTALL_PREFIX=/home/mhdns/bumperbot_ws/install/bumperbot_msgs

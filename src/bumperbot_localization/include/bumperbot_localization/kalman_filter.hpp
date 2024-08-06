@@ -25,6 +25,9 @@ private:
     void odomCallback(const nav_msgs::msg::Odometry::SharedPtr & odom);
     void imuCallback(const sensor_msgs::msg::Imu::SharedPtr & imu);
 
-
+    double motion_variance_;
+    double measurement_variance_;
+    void statePrediction();
+    void measurementUpdate();
 };
 #endif //BUILD_KALMAN_FILTER_HPP
